@@ -1,6 +1,7 @@
+package hackerschool.transportation;
 
-public class Vehicle {
-	private String color;
+public abstract class Vehicle implements Movable {
+	public String color;
 	
 	public Vehicle(String color) {
 		this.color = color;
@@ -15,7 +16,5 @@ public class Vehicle {
 		this.color = color;
 	}
 	
-	public void sound() {
-		System.out.println("What is the sound of a generic vehicle?");
-	}
+	public abstract void sound();
 }

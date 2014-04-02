@@ -1,3 +1,4 @@
+package hackerschool.workshop;
 
 public class WorkshopLiveDemo1 {
 	private String workshopName;
